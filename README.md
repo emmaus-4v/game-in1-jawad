@@ -1,9 +1,9 @@
 Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 
-## Mijn spel: *naam van het spel*
+## Mijn spel: *flappy triangle*
 Gemaakt door:
-- *naam van leerling 1*
-- *naam van leerling 2*
+- *jawad essalhi*
+
 
 ## Mijn planning
 
@@ -11,9 +11,10 @@ Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
 - [ ] teken speler
 - [ ] beweeg speler
-- [ ] ... *(vul zelf aan)*
-- [ ] punten op scherm zetten
-- [ ] punten kunnen scoren
+- [ ] obstakels maken 
+- [ ] als de triangle een obstakel raakt dan af!
+- [ ] punten kunnen scoren als je langs een obstakel bent gekomen
+- [ ] per gepaseerde obstakel 1 punt
 - [ ] uitlegscherm
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
