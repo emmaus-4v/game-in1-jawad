@@ -12,6 +12,7 @@ Basis: uitleg, spelen, afgaan en punten
 - [ ] teken speler
 - [ ] beweeg speler
 - [ ] obstakels maken 
+- [ ] obstakels laten bewegen naar links
 - [ ] als de triangle een obstakel raakt dan af!
 - [ ] punten kunnen scoren als je langs een obstakel bent gekomen
 - [ ] per gepaseerde obstakel 1 punt
