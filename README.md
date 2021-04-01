@@ -9,11 +9,11 @@ Gemaakt door:
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
-- [ ] teken speler
-- [ ] beweeg speler
+- [ ] teken vierkantje 
+- [ ] vierkantje omhoog en omhoog kunnen bewegen 
 - [ ] obstakels maken 
 - [ ] obstakels laten bewegen naar links
-- [ ] als de triangle een obstakel raakt dan af!
+- [ ] als het vierkantje een obstakel raakt dan af!
 - [ ] punten kunnen scoren als je langs een obstakel bent gekomen
 - [ ] per gepaseerde obstakel 1 punt
 - [ ] uitlegscherm
