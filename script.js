@@ -29,8 +29,7 @@ var spelerY = 100; // y-positie van speler
 var kogelX = 0;    // x-positie van kogel
 var kogelY = 0;    // y-positie van kogel
 
-var vijandX = 0;   // x-positie van vijand
-var vijandY = 0;   // y-positie van vijand
+
 
 var score = 0; // aantal behaalde punten
 
@@ -80,7 +79,7 @@ var tekenKogel = function(x, y) {
  * @param {number} y y-coördinaat
  */
 var tekenSpeler = function(x, y) {
-  fill("white");
+  fill("blue");
   ellipse(x, y, 50, 50);
 };
 
@@ -105,8 +104,13 @@ var beweegKogel = function() {
  * Kijkt wat de toetsen/muis etc zijn.
  * Updatet globale variabele spelerX en spelerY
  */
-var beweegSpeler = function() {
+ var KEY_UP = 38;
+ var KEY_DOWN = 40;
 
+var beweegSpeler = function draw() {
+if (keyIsDown(KEY_UP)) {
+    x = x - 1;
+}
 };
 
 
