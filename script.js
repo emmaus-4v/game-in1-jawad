@@ -75,11 +75,11 @@ var tekenKogel = function(x, y) {
 
 /**
  * Tekent de speler
- * @param {number} x x-coördinaat
- * @param {number} y y-coördinaat
+ * @param {number} x 100
+ * @param {number} y 200
  */
 var tekenSpeler = function(x, y) {
-  fill("blue");
+  fill("white");
   ellipse(x, y, 50, 50);
 };
 
@@ -111,6 +111,9 @@ var beweegSpeler = function draw() {
 if (keyIsDown(KEY_UP)) {
     x = x - 1;
 }
+if (keyIsDown(KEY_DOWN)) {
+    x = x + 1;
+  }
 };
 
 
