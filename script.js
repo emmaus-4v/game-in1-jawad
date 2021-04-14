@@ -105,6 +105,8 @@
   * Kijkt wat de toetsen/muis etc zijn.
   * Updatet globale variabele spelerX en spelerY
   */
+ var x = 100;
+ var y = 50;
  var KEY_UP = 38;
  var KEY_DOWN = 40;
 
@@ -196,13 +198,3 @@
        break;
    }
  }
-
-
-
-
-
-
-
-
-
-
