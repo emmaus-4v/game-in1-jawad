@@ -4,5 +4,5 @@
     "p5.global-mode.d.ts": true,
     ".git": true
 },
-"editor.autoSave": "on"
+"editor.autoSave": "off"
 }

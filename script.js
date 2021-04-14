@@ -105,10 +105,17 @@
   * Kijkt wat de toetsen/muis etc zijn.
   * Updatet globale variabele spelerX en spelerY
   */
- 
- var beweegSpeler = function() {
+ var KEY_UP = 38;
+ var KEY_DOWN = 40;
 
- };
+  var beweegSpeler = function() {
+  
+   if (keyIsDown(KEY_UP)) {
+    y = y + 1;
+  }
+   if (keyIsDown(KEY_DOWN)) {
+    y = y - 1;
+  }
 
 
  /**
