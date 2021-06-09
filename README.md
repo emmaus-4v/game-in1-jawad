@@ -1,6 +1,6 @@
 Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 
-## Mijn spel: *flappy triangle*
+## Mijn spel: *snake*
 Gemaakt door:
 - *jawad essalhi*
 
@@ -9,13 +9,13 @@ Gemaakt door:
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
-- [x] teken rondje
-- [ ] rondje omhoog en omhoog kunnen bewegen 
-- [ ] obstakels maken 
-- [ ] obstakels laten bewegen naar links
-- [ ] als het rondje een obstakel raakt dan af!
-- [ ] punten kunnen scoren als je langs een obstakel bent gekomen
-- [ ] per gepaseerde obstakel 1 punt
+- [x] teken slang
+- [x] slang kunnen bewegen 
+- [ ] voorwerp kunnen pakken
+- [ ] achtergrond maken
+- [ ] als de slang zichzelf of de rand raakt dan af!
+- [ ] punten kunnen scoren als je een voorwerp pakt
+- [ ] per voorwerp 1 punt
 - [ ] uitlegscherm
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*

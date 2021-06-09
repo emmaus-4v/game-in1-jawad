@@ -48,10 +48,12 @@ var score = 0; // aantal behaalde punten
 /**
  * Tekent het speelveld
  */
-var tekenVeld = function () {
-  fill("purple");
+ var tekenVeld = function () {
+  fill("green");
   rect(20, 20, width - 2 * 20, height - 2 * 20);
-};
+}; 
+
+
 
 
 /**
@@ -112,16 +114,16 @@ var beweegKogel = function() {
 var beweegSpeler = function() {
     /* speler bewegen met de linker, rechter, onder en boven pijlen */
     if (keyCode === LEFT_ARROW) {
-      spelerX=spelerX-1;
+      spelerX=spelerX-5;
     } 
     if (keyCode === RIGHT_ARROW) {
-      spelerX=spelerX+1;
+      spelerX=spelerX+5;
     } 
     if (keyCode === DOWN_ARROW) {
-      spelerY=spelerY+1;
+      spelerY=spelerY+5;
     } 
     if (keyCode === UP_ARROW) {
-      spelerY=spelerY-1;
+      spelerY=spelerY-5;
     }
      if (spelerX<0) {
         spelerX=200;
