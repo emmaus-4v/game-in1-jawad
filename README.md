@@ -1,6 +1,6 @@
 Deze game is gebaseerd op het template voor 4HV van het Emmauscollege Rotterdam
 
-## Mijn spel: *snake*
+## Mijn spel: *pong*
 Gemaakt door:
 - *jawad essalhi*
 
@@ -9,14 +9,14 @@ Gemaakt door:
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
-- [x] teken slang
-- [x] slang kunnen bewegen 
-- [ ] voorwerp kunnen pakken
-- [ ] achtergrond maken
-- [ ] als de slang zichzelf of de rand raakt dan af!
-- [ ] punten kunnen scoren als je een voorwerp pakt
-- [ ] per voorwerp 1 punt
-- [ ] uitlegscherm
+- [x] teken balletje
+- [x] balletje kunnen bewegen 
+- [x] plank maken
+- [x] plank kunnen bewegen
+- [x] achtergrond
+- [x] muur maken
+- [x] punten kunnen scoren als het balletje langs de muur komt 
+- [x] uitlegscherm
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] *later uitwerken*
